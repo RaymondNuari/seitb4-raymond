@@ -6,7 +6,7 @@ When(/^i click hubungi kami$/) do
   find('#__next > div > div:nth-child(1) > div > div.nav__topbar__1n05C.nav__showTopbar__1ZkSn > div > div.nav__floatLeft__QggSF.nav__padding7__zElvW > a').click
 end
 Then(/^i see pop up notification$/) do
-  pending
+  page.driver.browser.switch_to.alert.dismiss
 end
 When(/^i click phone number$/) do
   find('#__next > div > div:nth-child(1) > div > div.nav__topbar__1n05C.nav__showTopbar__1ZkSn > div > div.nav__floatLeft__QggSF.nav__padding7__zElvW > a').click
