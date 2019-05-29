@@ -14,7 +14,7 @@ Feature: create item on backoffice
       And i input <sku name> on field sku
       And i click save button
       Then check <item name> on library
-      #Then i delete <item name> item on list
+    
 
   Examples:
     |item name|item price|sku name|
