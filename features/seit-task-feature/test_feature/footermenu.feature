@@ -2,7 +2,7 @@
 Feature: check all footer
 
   Background:
-    Given i navigate to staging mokapos homepage
+    Given i navigate to mokapos homepage
 
     #product software
     Scenario: check menu Point of Sale

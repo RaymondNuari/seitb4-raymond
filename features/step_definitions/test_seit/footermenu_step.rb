@@ -1,6 +1,3 @@
-Given(/^i navigate to staging mokapos homepage$/) do
-  visit "https://staging.mokapos.com"
-end
 When(/^i click menu Point of Sale$/) do
   find('#__next > div > div.Footer__footer__sMOOQ > div > footer > section.Footer__main-footer__NaqRw > div:nth-child(1) > ul > li:nth-child(1) > a').click
 end
