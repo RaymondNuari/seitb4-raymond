@@ -1,5 +1,5 @@
 Given(/^i navigate to BO dev mokapos$/) do
-  login_acc_stg
+  login_acc_dev
   top_loading_bar
 end
 
