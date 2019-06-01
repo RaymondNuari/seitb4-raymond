@@ -19,6 +19,7 @@ module Capybara
   end
 end
 
+
 Before '@javascript' do |scenario|
  @scenario_name = scenario.feature.name
  # page.driver.browser.manage.window.maximize
