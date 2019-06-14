@@ -33,10 +33,10 @@ Before '@javascript' do |scenario|
 
 #  before(:each) do |test|
     caps = {
-        browser_name: 'chrome',
+        browser_name: 'firefox',
         platform_name: 'windows 10',
-        browser_version: '71.0',
-        "goog:chromeOptions" => {w3c: true},
+        version: '66.0',
+        #{}"goog:chromeOptions" => {w3c: true},
         "sauce:options" => {
             build: 'just sample',
             name: 'test connect saucelabs',
