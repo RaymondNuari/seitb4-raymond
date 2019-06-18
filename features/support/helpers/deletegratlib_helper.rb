@@ -12,7 +12,6 @@ module Deletegratlib
 
   def click_pop_up_delete_button_grat
     click_button('Delete')
-    top_loading_bar
   end
 
   def check_grat_not_in_list(param)

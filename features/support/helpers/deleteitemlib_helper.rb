@@ -11,7 +11,6 @@ end
 
 def click_pop_up_delete_button_item
   click_button('Delete')
-    top_loading_bar
 end
 
 def check_item_not_in_library(param)

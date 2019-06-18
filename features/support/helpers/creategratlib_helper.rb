@@ -22,7 +22,6 @@ module Creategratlib
 
   def click_save_grat_button
     click_button('Save')
-    top_loading_bar
   end
 
   def check_grat_has_created(param)
