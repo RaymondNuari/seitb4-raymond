@@ -32,7 +32,6 @@ module Createitemlib
   def click_save_item_button
     click_button('Save')
     expect(page).to have_content('Item was successfully created')
-    top_loading_bar
   end
 
   def check_new_item_created(param)

@@ -8,7 +8,12 @@ module RaymondSeit
     expect(page).to have_content('Dashboard')
   end
 
-
+  def go_to_employees_slot
+    find('#sidebar-wrapper > ul > li.dropdown.employees > a').click
+    top_loading_bar
+    find('#sidebar-wrapper > ul > li.dropdown.open.employees > ul > li:nth-child(1) > a').click
+    top_loading_bar
+  end
 end
 
 World(RaymondSeit)
